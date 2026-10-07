@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Programa desenvolvido em Python para calcular a comissão de vendedores a partir dos registros de vendas.
+Exercício desenvolvido em Python para calcular a comissão de vendedores a partir dos registros de vendas.
 
 ## Regras de Comissão
 
@@ -42,22 +42,13 @@ df['comissao'] = df['valor'].astype(float).apply(calcula_comissao)
 
 O programa também filtra e exibe as vendas de acordo com suas faixas de comissão.
 
-## Objetivos
-
-Praticar:
-
-* Manipulação de dados com Pandas;
-* Funções e estruturas condicionais;
-* `apply()`;
-* Conversão de tipos com `astype()`;
-* Filtragem de dados com `between()`.
-
 ---
+
 # Exercício 2 — Controle de Estoque
 
 ## Descrição
 
-Programa desenvolvido em Python para controlar produtos de um estoque, permitindo cadastrar, excluir e visualizar itens.
+Exercício desenvolvido em Python para controlar produtos de um estoque, permitindo cadastrar, excluir e visualizar itens.
 
 Os produtos possuem:
 
@@ -107,16 +98,6 @@ mostrarItens()
 
 O menu principal utiliza `match/case` para executar a operação escolhida pelo usuário.
 
-## Objetivos
-
-Praticar:
-
-* Manipulação de JSON;
-* Listas e dicionários;
-* Funções;
-* Estruturas condicionais e de repetição;
-* Validação de dados;
-* Tratamento de exceções.
 
 ---
 
@@ -124,7 +105,7 @@ Praticar:
 
 ## Descrição
 
-Programa desenvolvido em Python para calcular os juros de uma dívida em atraso, considerando uma taxa de **2,5% ao dia**.
+Exercício desenvolvido em Python para calcular os juros de uma dívida em atraso, considerando uma taxa de **2,5% ao dia**.
 
 O programa solicita:
 
@@ -160,13 +141,3 @@ dias_atraso = (data_hoje - data_vencimento).days
 ```
 
 Depois, os juros e o valor total são calculados.
-
-## Objetivos
-
-Praticar:
-
-* Entrada e conversão de dados;
-* Manipulação de datas;
-* Diferença entre datas;
-* Operações matemáticas;
-* Formatação de valores com `:.2f`.
